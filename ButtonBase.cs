@@ -1,4 +1,5 @@
-﻿namespace Godot {
+﻿
+namespace Godot {
     public static partial class Signals {
         public class BaseButton : Control {
             /// <summary> Emitted when the <see cref="Godot.BaseButton"/> starts being held down. </summary>

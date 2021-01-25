@@ -1,8 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard1.0</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <RootNamespace>Godot</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GodotSharp" Version="3.2.3" />
+    </ItemGroup>
 
 </Project>
