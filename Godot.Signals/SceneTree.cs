@@ -8,38 +8,38 @@
             public const string ConnectionFailed = "connection_failed";
 
             /// <summary> Emitted when files are dragged from the OS file manager and dropped in the game window.The arguments are a list of file paths and the identifier of the screen where the drag originated. </summary>
-            /// <remarks>[Args: PackedStringArray, int] </remarks>
+            /// <remarks>[Args: <see cref="string[]"/> files, <see cref="int"/> screen] </remarks>
             public const string FilesDropped = "files_dropped";
 
             /// <summary> Emitted whenever global menu item is clicked. </summary>
-            /// <remarks> [Args: Variant, Variant] </remarks>
+            /// <remarks> [Args: <see cref="Godot.Variant"/> id, <see cref="Godot.Variant"/> meta] </remarks>
             public const string GlobalMenuAction = "global_menu_action";
 
             /// <summary> Emitted immediately before Node._process is called on every node in the SceneTree. </summary>
             public const string IdleFrame = "idle_frame";
 
             /// <summary> Emitted whenever this SceneTree’s network_peer connects with a new peer.ID is the peer ID of the new peer.Clients get notified when other clients connect to the same server.  Upon connecting to a server, a client also receives this signal for the server(with ID being 1). </summary>
-            /// <remarks> [Args: int] </remarks>
+            /// <remarks> [Args: <see cref="int"/> id] </remarks>
             public const string NetworkPeerConnected = "network_peer_connected";
 
             /// <summary> Emitted whenever this SceneTree’s network_peer disconnects from a peer.Clients get notified when other clients disconnect from the same server. </summary>
-            /// <remarks> [Args: int] </remarks>
+            /// <remarks> [Args: <see cref="int"/> id] </remarks>
             public const string NetworkPeerDisconnected = "network_peer_disconnected";
 
             /// <summary> Emitted whenever a node is added to the SceneTree. </summary>
-            /// <remarks> [Args: Node] </remarks>
+            /// <remarks> [Args: <see cref="Godot.Node"/> node] </remarks>
             public const string NodeAdded = "node_added";
 
             /// <summary> Emitted when a node’s configuration changed.Only emitted in tool mode. </summary>
-            /// <remarks> [Args: Node] </remarks>
+            /// <remarks> [Args: <see cref="Godot.Node"/> node] </remarks>
             public const string NodeConfigurationWarningChanged = "node_configuration_warning_changed";
 
             /// <summary> Emitted whenever a node is removed from the SceneTree. </summary>
-            /// <remarks> [Args: Node] </remarks>
+            /// <remarks> [Args: <see cref="Godot.Node"/> node] </remarks>
             public const string NodeRemoved = "node_removed";
 
             /// <summary> Emitted whenever a node is renamed. </summary>
-            /// <remarks> [Args: Node] </remarks>
+            /// <remarks> [Args: <see cref="Godot.Node"/> node] </remarks>
             public const string NodeRenamed = "node_renamed";
 
             /// <summary> Emitted immediately before Node._physics_process is called on every node in the SceneTree. </summary>
