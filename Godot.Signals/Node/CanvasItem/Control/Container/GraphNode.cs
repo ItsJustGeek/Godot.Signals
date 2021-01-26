@@ -2,7 +2,7 @@
     public static partial class Signals {
         public class GraphNode : Container {
             /// <summary>
-            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be closed.
+            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be closed. <br/>
             /// Happens on clicking the close button (see <see cref="Godot.GraphNode.ShowClose"/>). 
             /// </summary>
             public const string CloseRequest = "close_request";
@@ -15,13 +15,13 @@
             public const string OffsetChanged = "offset_changed";
 
             /// <summary>
-            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be displayed over other ones. 
+            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be displayed over other ones. <br/>
             /// Happens on focusing (clicking into) the <see cref="Godot.GraphNode"/>. 
             /// </summary>
             public const string RaiseRequest = "raise_request";
 
             /// <summary>
-            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be resized.
+            /// Emitted when the <see cref="Godot.GraphNode"/> is requested to be resized. <br/>
             /// Happens on dragging the resizer handle (see <see cref="Godot.GraphNode.Resizable"/>).
             /// </summary>
             /// <remarks> [Args: <see cref="Godot.Vector2"/> newMinSize] </remarks>
