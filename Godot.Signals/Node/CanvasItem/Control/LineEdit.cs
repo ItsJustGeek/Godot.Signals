@@ -5,11 +5,11 @@
             public const string TextChangeRejected = "text_change_rejected ";
 
             /// <summary> Emitted when the text changes. </summary>
-            /// <remarks> [Args: <see cref="string"/>] </remarks>
+            /// <remarks> [Args: <see cref="string"/> newText] </remarks>
             public const string TextChanged = "text_changed";
 
             /// <summary> Emitted when the user presses <see cref="Godot.KeyList.Enter"/> on the <see cref="Godot.LineEdit"/>.</summary>
-            /// <remarks> [Args: <see cref="string"/>] </remarks>
+            /// <remarks> [Args: <see cref="string"/> newText] </remarks>
             public const string TextEntered = "text_entered";
         }
     }
